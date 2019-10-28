@@ -16,17 +16,20 @@ public class CodeChallenge {
 
     private static final int[] q1 = {0, 0,
                                      0, K};
+
     private static final int[] a1 = {1, 1, 1, K};
 
     private static final int[] q2 = {0, 0, W,
                                      0, 0, 0,
                                      K, 0, W};
+
     private static final int[] a2 = {2, 2, W, 1, 1, 2, K, 1, W};
 
     private static final int[] q3 = {K, 0, W, 0,
                                      0, 0, W, 0,
                                      W, 0, 0, 0,
                                      0, W, 0, 0};
+
     private static final int[] a3 = {K, 1, W, 4, 1, 1, W, 3, W, 2, 2, 3, 3, W, 3, 3};
 
     private static final int[] q4 = {0, 0, 0, W, 0,
@@ -34,6 +37,7 @@ public class CodeChallenge {
                                      0, 0, 0, W, 0,
                                      W, W, W, 0, W,
                                      0, W, K, 0, 0};
+
     private static final int[] a4 = {4, 4, 4, W, 4, 4, 3, W, 3, 3, 4, 3, 2, W, 2, W, W, W, 1, W, 0, W, K, 1, 2};
 
     private static final int[] q5 = {W, W, W, 0, 0, W, 0, 0,
@@ -44,6 +48,7 @@ public class CodeChallenge {
                                      0, 0, W, 0, 0, W, W, 0,
                                      W, 0, W, W, 0, W, 0, W,
                                      0, 0, 0, 0, 0, 0, 0, 0};
+
     private static final int[] a5 = {W, W, W, 4, 4, W, 4, 5,
                                      W, 0, W, W, 3, 3, W, 5,
                                      W, 0, 0, W, W, 2, W, 6,
