@@ -12,38 +12,35 @@ package codechallenge;
 public class ChallengeQuestion {
 
     /**
-     * A Chess King stands on his board and wants to know how long it will
-     * take him to walk to each square from his starting position.  Walls have
-     * started to appear in his kingdom and can potentially make it impossible
-     * for the king to reach a square.
+     * The Fibonacci sequence is a will known sequence defined by the equation
+     * F? = F??? + F??? where F? = 0 and F? = 1.
+     * This results in a sequence that begins as 0, 1, 1, 2, 3, 5, 8, 13...
+     * and continues on forever.
      *
-     * Given a SQUARE, one-dimensional array representing the King's board,
-     * calculate the minimum steps it will take for the king to reach each
-     * square from his STARTING position.  Like in the game of chess, the King
-     * may move in any direction (forwards, backwards, diagonally,
-     * orthogonally).  The king may only move one square at a time.
+     * It follows that every positive, natural number can be composed by adding
+     * unique combinations of Fibonacci numbers.  ex:
+     * 8 = 5 + 3; 5 + 2 + 1;
+     * 12 = 8 + 3 + 1
+     * 29 = 21 + 8; 21 + 5 + 3; 21 + 5 + 2 + 1; ...;
      *
-     * preset values:
-     *   127 = King start position
-     *    -1 = A wall, the king cannot move through these
-     *     0 = Unvisited location
+     * The OPTIMUM composition of an integer X is one that has the fewest
+     * Fibonacci numbers used.  The Optimal number (P?) represents the minimum
+     * numbers required to sum to X. ex:
+     * P of 8 = 2
+     * P of 12 = 3
+     * P of 29 = 2
      *
-     * Example:
-     *   input: {0, 0, W, 0,
-     *           K, 0, W, W,
-     *           0, W, 0, 0,
-     *           0, W, 0, 0}
-     *   output: {1, 1, W, 0,
-     *            K, 1, W, W,
-     *            1, W, 2, 3,
-     *            2, W, 3, 3}
+     * Find the count of all numbers between 1 and 1-million inclusive that have
+     * a P value of 4 or more.
+     *
+     * This should optimize SPACE and TIME.
      *
      * @param input
      * @return
      */
-    public int[] answer(int[] input) {
-
-        return input;
+    public int answer() {
+        throw new UnsupportedOperationException();
     }
 
 }
+
