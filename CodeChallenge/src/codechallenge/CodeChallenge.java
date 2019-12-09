@@ -25,8 +25,9 @@ public class CodeChallenge {
         System.out.println("Time for completion: " + (end - start) + "?s");
     }
 
-    private static void validate(int guess, int answer) throws Exception {
+    private static void validate(int guess, Integer answer) throws Exception {
         long heapSize = Runtime.getRuntime().totalMemory();
+        System.out.println("Found " + guess + " numbers.");
         System.out.println("Total heap size used: " + (heapSize) + " bytes");
     }
 
